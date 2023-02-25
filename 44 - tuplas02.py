@@ -1,0 +1,10 @@
+tupla = ('Palmeiras', 'Corinthians', 'Atlético-MG', 'Fluminense', 'Athletico-PR', 'Internacional', 'São Paulo', 'Santos','Flamengo', 'Botafogo', 'Bragantino', 'Goiás', 'Cuiabá', 'Coritiba', 'América-MG', 'Avaí', 'Ceará', 'Atlético-GO', 'Juventude', 'Fortaleza')
+
+print(f'Os 5 primeiros colocados do campeonato brasileiro são {tupla[:5]}')
+print('-=' * 40)
+print(f'Os 4 últimos colocados do campeonato brasileiro são {tupla[-4:]}')
+print('-=' * 40)
+print('Times em ordem alfabética:', end="")
+print(sorted(tupla))
+print('-=' * 40)
+print(f"O Flamengo está na {tupla.index('Flamengo')}ª posição.")
